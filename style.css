@@ -1,0 +1,165 @@
+body{
+    font-family: 'Gayathri', sans-serif !important;
+}
+
+header {
+    position: fixed;
+    z-index: 2;
+    background: #fff;
+    box-shadow: 0 0 15px #ddd;
+    width: 100%;
+}
+#logo{
+    width: 100px;
+    margin: 0,5em;
+}
+
+.banner {
+    padding: 6em 0 2em 0;
+}
+
+.banner-central{
+    padding: 2em 0 2em 0;
+    margin: 0 1em 0 1em;
+}
+
+#carrousel {
+    max-width: 100%;
+}
+
+#carrousel img{
+    width: 400px; 
+    border-radius: 5px;
+
+}
+
+.galeria {
+    width: 100%; 
+}
+
+#redondo {
+    border-radius: 50%;
+    width: 100px; 
+    height: 100px;
+}
+
+.foto {
+    width: 400px;
+}
+
+.btn {
+    margin: 2px;
+}
+
+.nav-item {
+    justify-content: right;
+}
+
+
+h3 {
+    color: rgb(165, 158, 158);
+}
+
+.caixa{
+    display: flex;
+    padding: 1em;
+    border: solid 2px whitesmoke;
+    border-radius: 5px;
+}
+
+.caixa:hover{
+    border: solid 2px rgb(221, 220, 220);
+}
+
+.espacio {
+    margin-top: 1em;
+}
+
+button.vermais {
+    border-color: rgb(221, 220, 220);
+    margin: 2em 0 3em 0;
+}
+
+.contenedor {
+    border: solid 2px whitesmoke;
+    border-radius: 5px;
+}
+
+.contenedor:hover{
+    border: solid 2px rgb(221, 220, 220);
+}
+
+.text {
+    border-left: solid 2px whitesmoke;
+    margin: 0 1em 0 1em;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    text-decoration: none;
+    color: gray;
+    margin-top: 2em;
+}
+
+li:hover{
+    color: black;
+}
+
+.text p { 
+        margin-left: 10px;
+}
+
+.contenedor p {
+    margin: 1em;
+}
+
+hr { 
+    display: block;
+    margin: 2em 0 2em 0;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+  } 
+
+  .espacio-top {
+      margin-top: 3em;
+  }
+
+  .alinear ul {
+      display: flex;
+  }
+
+  .texto-footer {
+      font-size: 13px;
+  }
+
+  .politicas {
+      font-size: 14px;
+  }
+
+  .politicas li {
+      margin: 5px
+  }
+
+  .logofinal {
+      width: 100px;
+      margin: 0 0 2em 0;
+  }
+  .medias-socias {
+    display: flex;
+}
+
+.medias-socias img {
+    margin: 1em;
+}
+
+.filtro {
+    font-size: 20px;
+    color: rgb(202, 202, 202);
+}
